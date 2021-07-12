@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 14 px;
+} /*чтобы везде был шрифт, надо обратиться тут*/
+
+.title {
+    font-size: 48 px;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 18px;
+}
+/*чтобы часть текста окрасить, только кусочек*/
+.position, .school {
+    color: #FF3232;
+    font-weight: bold;
+}
