@@ -2,18 +2,17 @@
 
 body {
     font-family: 'Montserrat', Helvetica, sans-serif;
-    font-size: 14 px;
+    font-size: 14px;
 } /*чтобы везде был шрифт, надо обратиться тут*/
 
 .title {
-    font-size: 48 px;
-    font-weight: bold;
+    font-size: 48px;
 }
 .subtitle {
     font-size: 18px;
 }
 /*чтобы часть текста окрасить, только кусочек*/
-.position, .school {
+.list-item_name {
     color: #FF3232;
     font-weight: bold;
 }
