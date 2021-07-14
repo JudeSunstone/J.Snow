@@ -3,16 +3,51 @@
 body {
     font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 14px;
+    padding: 67px 56px 67px 56px;
 } /*чтобы везде был шрифт, надо обратиться тут*/
 
 .title {
     font-size: 48px;
+    color: #FFFFFF;
+    margin: 48px 0 16px 0;
 }
 .subtitle {
     font-size: 18px;
 }
+
+.birth {
+    color: #FFFFFF;
+    text-align: center;
+}
+
 /*чтобы часть текста окрасить, только кусочек*/
 .list-item_name {
     color: #FF3232;
     font-weight: bold;
 }
+
+.aside {
+    margin-left: ;
+    width: 310px;
+    background-color: #1A142D;
+    padding: 18px;
+    box-sizing: border-box;
+    margin-right: 67px;
+
+}
+.avatar {
+    border: 1px solid #FFFFFF ;
+    width: 100%;
+}
+
+.main {
+    width: 457px;
+}
+
+.container {
+    display: flex;
+}
+/* разобраться с отступом в списках
+правильное расположение
+нужны ли main aside  - можно не нужно. я бы заменила. бразуер лучше читаем семантику
+
