@@ -10,9 +10,11 @@ body {
     font-size: 48px;
     color: #FFFFFF;
     margin: 48px 0 16px 0;
+    text-align: center;
 }
 .subtitle {
-    font-size: 18px;
+    font-size: 24px;
+    margin: 25px 0 28px 0;
 }
 
 .birth {
@@ -41,13 +43,16 @@ body {
 }
 
 .main {
-    width: 457px;
+    width: 467px;
 }
 
 .container {
     display: flex;
 }
-/* разобраться с отступом в списках
-правильное расположение
-нужны ли main aside  - можно не нужно. я бы заменила. бразуер лучше читаем семантику
 
+ul {
+    margin-left: -40px;
+}
+li {
+    margin-bottom: 5px;
+}
