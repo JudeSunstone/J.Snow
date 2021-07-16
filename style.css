@@ -3,6 +3,7 @@
 body {
     font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 14px;
+    margin-left: 57px;
 } /*чтобы везде был шрифт, надо обратиться тут*/
 
 .title {
@@ -49,8 +50,9 @@ p {
 }
 
 .container {
+    margin-top: 67px;
+    margin-bottom: 87px;
     display: flex;
-    margin: 67px 56px 67px 56px;
 }
 
 ul {
@@ -59,3 +61,55 @@ ul {
 li {
     margin-bottom: 5px;
 }
+.socials {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    position: relative; /*могу теперь сдвигать - top/right/l... без релейтива нельзя сдвигать блок*/
+    bottom: 10px; /*снизу давим на элемент*/
+}
+.gallery {
+    width: 910px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 59px;
+}
+
+.gallery-item { /*почему в начале*/
+    width: 206px;
+    height: 206px;
+    position: relative;
+}
+.gallery-label {  
+    width: 100%;
+    padding:  3px 5px;
+    background-color: #1A142D;
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.gallery-item:hover .gallery-label {
+    display: block;
+}
+
+.socials img {
+    margin-right: 3px;
+}
+
+
+
