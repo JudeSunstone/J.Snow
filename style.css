@@ -3,7 +3,6 @@
 body {
     font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 14px;
-    padding: 67px 56px 67px 56px;
 } /*чтобы везде был шрифт, надо обратиться тут*/
 
 .title {
@@ -14,7 +13,7 @@ body {
 }
 .subtitle {
     font-size: 24px;
-    margin: 25px 0 28px 0;
+    margin: 40px 0 28px 0;
 }
 
 .birth {
@@ -29,8 +28,8 @@ body {
 }
 
 .aside {
-    margin-left: ;
     width: 310px;
+    height: 656px;
     background-color: #1A142D;
     padding: 18px;
     box-sizing: border-box;
@@ -41,6 +40,9 @@ body {
     border: 1px solid #FFFFFF ;
     width: 100%;
 }
+p { 
+    margin-top: 0;
+} /*отключает стандартный отступ у абзацев*/
 
 .main {
     width: 467px;
@@ -48,10 +50,11 @@ body {
 
 .container {
     display: flex;
+    margin: 67px 56px 67px 56px;
 }
 
 ul {
-    margin-left: -40px;
+    margin-left: -26px;
 }
 li {
     margin-bottom: 5px;
